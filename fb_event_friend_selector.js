@@ -1,0 +1,1 @@
+x=document.getElementsByClassName('scrollable fbProfileBrowserResult')[0];sp=function(s,h){s.scrollByPages(50);setTimeout(function(){if(h<s.scrollHeight){sp(s,s.scrollHeight);}else{b=document.getElementsByClassName('checkbox');for(i=0;i<b.length;++i){b[i].checked=true;}}}, 250);};sp(x,0);
